@@ -25,8 +25,9 @@ import (
 	"time"
 
 	tlsutils "github.com/RedHatInsights/insights-operator-utils/tls"
-	"github.com/Shopify/sarama"
 	"github.com/rs/zerolog/log"
+
+	"github.com/IBM/sarama"
 )
 
 // BrokerConfiguration represents configuration of a single-instance Kafka broker
